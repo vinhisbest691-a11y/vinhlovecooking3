@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size:16px;
+  font-family:arial;
+  margin: 0;
+}
+.menubar {
+  width: 100%;
+  background: #F6B93B;
+  padding: 16px 48px;
+}
+.index{
+     padding: 20px 0px 0px 0px;
+}
+.index img{
+     width: 66%;
+     display: block;
+     margin: auto;
+     border-radius: 16px;
+     box-shadow: 0px 4px 14px rgba(0,0,0,0.5);
+}
+.index h3{
+     font-size:35px;
+     font-family: time new roman;
+     margin: 16px 0 8px;
+     padding: 0px 0px 0px 250px;
+}
+.properties{
+     display: flex;
+     font-size:25px;
+     padding: 0px 0px 0px 250px;
+     gap: 14px;
+}
+.ingredients{
+     padding: 0px 0px 0px 250px;
+}
+.ingredients h3{
+     margin: 16px 0 8px;
+     font-size:35px;
+     font-family: time new roman;
+}
+.ingredientsprepare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0px 250px 0px 250px;
+}
+
+.the_ingredientsprepare {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.the_ingredientsprepare img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.the_ingredientsprepare h3 {
+  margin: 16px 0 8px;
+}
+.prepare{
+     display:grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 20px;
+     padding: 0px 250px 0px 250px;
+}
+.prepare h3{
+     margin: 16px 0 8px;
+     font-size:35px;
+     font-family: Times new roman;
+}
+.the_prepare{
+     background: #fff;
+     border-radius: 12px;
+     padding: 16px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.the_prepare img{
+     border-radius:16px;
+     width: 100%;
+     height:140px;
+     object-fit: cover; 
+     box-shadow: 0 2px 8px rgba(246, 185, 59, 3);
+}
+.the_prepare h3{
+     font-family: arial;
+     font-size: 20px;
+     text-align: center;
+}
+.so{
+     text-align: center;
+     padding: 0px 0px 16px 0px;
+}
+.so span{
+     font-size: 20px;
+     border-radius:50%;
+     padding: 8px 13px 8px 13px;
+     background: #F6B93B;
+     color: #FFF8E7;
+     font-weight: bold;
+}
+.result{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+     border-radius: 16px;
+     gap: 20px;
+     padding: 0px 250px 0px 250px;
+}
+.result img{
+     width: 100%;
+     border-radius:16px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.note{
+     padding: 0px 250px 0px 250px;
+}
+.note p{
+     color: #888;
+}
